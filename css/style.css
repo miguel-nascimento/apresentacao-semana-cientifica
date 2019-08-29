@@ -15,7 +15,17 @@ header {
   font-weight: bold;
   padding: 0px 0px 0px 12px;
 }
+.title-slide {
+margin: 0 450px;
 
+}
+iframe {
+  
+  margin: 65px 0 0 450px;
+  width: 900px;
+  height:450px;
+
+}
 .box-image {
   width: 330px;
   height: 620px;
@@ -48,18 +58,21 @@ h1 {
 /*Para alterar o posicionamento do texto é necessário mexer pelo css*/
 .p1{
   position: absolute;
+  height: auto;
   left: 450px;
   top: 200px;
   padding: 0px 60px 0px 0px;
 }
 .p2{
 position: absolute;
+height: auto;
   left: 450px;
   top: 350px;
   padding: 0px 60px 0px 0px;
 }
 .p3{
   position: absolute;
+  height: auto;
   left: 450px;
   top: 500px;
   padding: 0px 60px 0px 0px;
@@ -68,7 +81,7 @@ position: absolute;
 .btn {
   position: absolute;
   left: 450px;
-  top: 600px      ;
+  top: 700px      ;
   background-color: #232323;
   text-align: center;
   height: 30px;
